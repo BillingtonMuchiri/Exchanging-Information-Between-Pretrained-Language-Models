@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them using the metadata below."
+type: software
+title: "Code and results for: When Does Exchanging Information Between Pretrained Language Models Help? A Controlled Study of Text, Distillation, and Latent Channels"
+authors:
+  - family-names: Muria
+    given-names: Billington Muchiri
+    affiliation: "Department of Informatics and Computing, Taita Taveta University, Voi, Kenya"
+  - family-names: Mwanjele
+    given-names: Solomon
+    affiliation: "Department of Informatics and Computing, Taita Taveta University, Voi, Kenya"
+  - family-names: Bii
+    given-names: Joash Kiprotich
+    affiliation: "Department of Computer Science, Maasai Mara University, Narok, Kenya"
+license: MIT
+# [AUTHORS: fill in after the Zenodo deposit]
+# doi: "10.5281/zenodo.XXXXXXX"
+# version: "1.0.0"
+# date-released: "2026-MM-DD"
+# repository-code: "https://zenodo.org/records/XXXXXXX"

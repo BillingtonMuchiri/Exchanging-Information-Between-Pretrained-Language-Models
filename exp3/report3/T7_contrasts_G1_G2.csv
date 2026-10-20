@@ -1,0 +1,21 @@
+contrast,task,diff,ci_lo,ci_hi,pairs_positive,n_pairs
+proj - prompt_only,arce,0.03125,0.03125,0.03125,1,1
+proj - proj_shuf,arce,0.0625,0.0625,0.0625,1,1
+proj - text_hint,arce,0.09375,0.09375,0.09375,1,1
+text_hint - prompt_only,arce,-0.0625,-0.0625,-0.0625,0,1
+proj_shuf - prompt_only,arce,-0.03125,-0.03125,-0.03125,0,1
+proj - prompt_only,arcc,0.0,0.0,0.0,0,1
+proj - proj_shuf,arcc,0.03125,0.03125,0.03125,1,1
+proj - text_hint,arcc,0.21875,0.21875,0.21875,1,1
+text_hint - prompt_only,arcc,-0.21875,-0.21875,-0.21875,0,1
+proj_shuf - prompt_only,arcc,-0.03125,-0.03125,-0.03125,0,1
+proj - prompt_only,sciq_mcq,-0.09375,-0.09375,-0.09375,0,1
+proj - proj_shuf,sciq_mcq,-0.0625,-0.0625,-0.0625,0,1
+proj - text_hint,sciq_mcq,-0.0625,-0.0625,-0.0625,0,1
+text_hint - prompt_only,sciq_mcq,-0.03125,-0.03125,-0.03125,0,1
+proj_shuf - prompt_only,sciq_mcq,-0.03125,-0.03125,-0.03125,0,1
+proj - prompt_only,sciq_gen,-0.33333333333333337,-0.33333333333333337,-0.33333333333333337,0,1
+proj - proj_shuf,sciq_gen,-0.25,-0.25,-0.25,0,1
+proj - text_hint,sciq_gen,-0.20833333333333337,-0.20833333333333337,-0.20833333333333337,0,1
+text_hint - prompt_only,sciq_gen,-0.125,-0.125,-0.125,0,1
+proj_shuf - prompt_only,sciq_gen,-0.08333333333333337,-0.08333333333333337,-0.08333333333333337,0,1
