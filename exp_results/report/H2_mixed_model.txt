@@ -1,0 +1,23 @@
+                     Mixed Linear Model Regression Results
+================================================================================
+Model:                     MixedLM         Dependent Variable:         retention
+No. Observations:          180             Method:                     REML     
+No. Groups:                12              Scale:                      0.0037   
+Min. group size:           15              Log-Likelihood:             221.4530 
+Max. group size:           15              Converged:                  Yes      
+Mean group size:           15.0                                                 
+--------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+--------------------------------------------------------------------------------
+Intercept                              0.606    0.052 11.688 0.000  0.504  0.707
+C(mech)[T.bridge_procrustes]           0.128    0.030  4.271 0.000  0.069  0.187
+C(mech)[T.bridge_ridge]                0.145    0.030  4.810 0.000  0.086  0.203
+C(mech)[T.kd]                          0.313    0.030 10.420 0.000  0.254  0.372
+C(mech)[T.text_hint]                   0.498    0.030 16.569 0.000  0.439  0.557
+mismatch                               0.570    1.639  0.348 0.728 -2.643  3.783
+C(mech)[T.bridge_procrustes]:mismatch -0.287    0.951 -0.302 0.763 -2.150  1.576
+C(mech)[T.bridge_ridge]:mismatch       1.385    0.951  1.457 0.145 -0.478  3.248
+C(mech)[T.kd]:mismatch                -0.176    0.951 -0.185 0.853 -2.040  1.687
+C(mech)[T.text_hint]:mismatch         -2.577    0.951 -2.711 0.007 -4.441 -0.714
+Group Var                              0.006    0.048                           
+================================================================================
